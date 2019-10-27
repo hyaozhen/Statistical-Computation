@@ -4,7 +4,7 @@ author: "Zhenhan Huang"
 date: "December 2018"
 output: md_document
 ---
-  
+
 ## 1.
 ![](images/p1.png)
 
@@ -366,6 +366,7 @@ E_M_Norm_Mix <- function(y, iter, K)
 
 ### b). Compute the BIC for each fit and record whether k = 4, 5, or 6 had the lowest BIC.
 ```{r}
+options(warn=-1)
 B = 1000
 bic_result <- matrix(NA,B,3)
 for (i in 1:B){
@@ -384,5 +385,5 @@ print(c("Ratio of k=4,5,6 which has lowest BIC"))
 print(c(sum(bic_stat==1)/B,sum(bic_stat==2)/B,sum(bic_stat==3)/B))
 ```
 
-Since the BIC picks k = 4, there is a little uncertainty and we should not ignore uncertainty when estimate parameters.
+* Since the BIC picks k = 4, there is a little uncertainty and we should not ignore uncertainty when estimate parameters.
 
