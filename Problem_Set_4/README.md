@@ -1,8 +1,11 @@
-## Problem 1. Problems 5.6 (Textbook: Statistical computing with R / Maria L. Rizzo.):
+1. Problems 5.6 (Textbook: Statistical computing with R / Maria L. Rizzo.):
+---------------------------------------------------------------------------
 
-![](images/p1.png)
+![](images/p1_1.png)
 
 ### What is the percent reduction in variance of theta that can be achieved using antithetic variates (compared with simple MC)?
+
+![](images/p1_2.png)
 
     m <- 10000
     U <- runif(m)
@@ -15,14 +18,15 @@
     av.var <- var(rowMeans(exp(U.av)))
     1-(av.var/mc.var)
 
-    ## [1] 0.9838987
+    ## [1] 0.9838981
 
     print(c("The percent reduction in variance: ","98.38%"))
 
     ## [1] "The percent reduction in variance: "
     ## [2] "98.38%"
 
-## Problem 2. Problems 5.7 (Textbook: Statistical computing with R / Maria L. Rizzo.):
+2. Problems 5.7 (Textbook: Statistical computing with R / Maria L. Rizzo.):
+---------------------------------------------------------------------------
 
 ![](images/p2.png)
 
@@ -47,22 +51,23 @@
             "theta by the simple Monte Carlo method: ",mean(MCest)))
 
     ## [1] "theta by the antithetic variate approach: "
-    ## [2] "1.71825469564399"                          
+    ## [2] "1.7182762316213"                           
     ## [3] "theta by the simple Monte Carlo method: "  
-    ## [4] "1.71762752171805"
+    ## [4] "1.71950111482807"
 
 ### b). Compute an empirical estimate of the percent reduction in variance using the antithetic variate. Compare the result with the theoretical value from Exercise 5.6.
 
     (var(MCest) - var(Aest)) / var(MCest)
 
-    ## [1] 0.9809593
+    ## [1] 0.9900835
 
 #### For the percent reduction in variance using:
 
 -   Theoretical value from Exercise 5.6: 98.38%
 -   Empirical estimate using the antithetic variate: 99.15%
 
-## Problem 3. Problems 5.13 (Textbook: Statistical computing with R / Maria L. Rizzo.):
+3. Problems 5.13 (Textbook: Statistical computing with R / Maria L. Rizzo.):
+----------------------------------------------------------------------------
 
 ![](images/p3.png)
 
@@ -95,13 +100,14 @@
     lines(x, y_norm, col="blue", ylim = c(0, 1))
     lines(x, y_gamma, col="green", ylim = c(0, 1))
 
-![](HW4_files/figure-markdown_strict/unnamed-chunk-4-1.png)
+![](Problem_Set_4_files/figure-markdown_strict/unnamed-chunk-4-1.png)
 
 -   Since function 1 (Rice Distribution) and function 2 (Normal
     Distribution) are closer to g(x), they should produce the smaller
     variance in estimation.
 
-## 4. Problems 5.14 (Textbook: Statistical computing with R / Maria L. Rizzo.):
+4. Problems 5.14 (Textbook: Statistical computing with R / Maria L. Rizzo.):
+----------------------------------------------------------------------------
 
 ![](images/p4.png)
 
@@ -130,13 +136,14 @@
     ## [1] "Theoretical estimation: "                                   
     ## [2] "0.400625978474506"                                          
     ## [3] "Estimation by Importance Function 1 (Rice Distribution): "  
-    ## [4] "0.505720572224352"                                          
+    ## [4] "0.500252510987078"                                          
     ## [5] "Estimation by Importance Function 2 (Normal Distribution): "
-    ## [6] "0.584304620607066"                                          
+    ## [6] "0.584001470805931"                                          
     ## [7] "Estimation by Importance Function 3 (Gamma Distribution): " 
-    ## [8] "0.467872001418224"
+    ## [8] "0.47833302530692"
 
-## Problem 5.
+5.
+--
 
 ![](images/p5_1.png) ![](images/p5_2.png)
 
@@ -174,7 +181,7 @@
     lines(seq(rt$root,1,0.0001), y_right, col="blue", ylim = c(0, 3.5))
     points(rt$root,left_arm(rt$root))
 
-![](HW4_files/figure-markdown_strict/unnamed-chunk-6-1.png)
+![](Problem_Set_4_files/figure-markdown_strict/unnamed-chunk-6-1.png)
 
     rt$root
 
@@ -285,7 +292,7 @@
     print(run_time)
 
     ##    user  system elapsed 
-    ##   0.294   0.148   0.448
+    ##   0.313   0.148   0.460
 
 ### d). Show graphically that your samples indeed follow the beta density with shape and scale parameters 3 and 5.
 
@@ -294,7 +301,7 @@
     lines(seq(rt$root,1,0.0001), y_right, col="red", ylim = c(0, 3.5))
     lines(density(samples), xlim=c(0,1), ylim=c(0,3.5), col = "green", xlab = "x", ylab="density")
 
-![](HW4_files/figure-markdown_strict/unnamed-chunk-9-1.png)
+![](Problem_Set_4_files/figure-markdown_strict/unnamed-chunk-9-1.png)
 
 Green curve is the density of the samples which fits the beta density
 very well.
