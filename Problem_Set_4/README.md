@@ -1,5 +1,4 @@
 ## Problem 1. Problems 5.6 (Textbook: Statistical computing with R / Maria L. Rizzo.):
----------------------------------------------------------------------------
 
 ![](images/p1.png)
 
@@ -24,7 +23,6 @@
     ## [2] "98.38%"
 
 ## Problem 2. Problems 5.7 (Textbook: Statistical computing with R / Maria L. Rizzo.):
----------------------------------------------------------------------------
 
 ![](images/p2.png)
 
@@ -65,7 +63,6 @@
 -   Empirical estimate using the antithetic variate: 99.15%
 
 ## Problem 3. Problems 5.13 (Textbook: Statistical computing with R / Maria L. Rizzo.):
-----------------------------------------------------------------------------
 
 ![](images/p3.png)
 
@@ -105,7 +102,6 @@
     variance in estimation.
 
 ## 4. Problems 5.14 (Textbook: Statistical computing with R / Maria L. Rizzo.):
-----------------------------------------------------------------------------
 
 ![](images/p4.png)
 
@@ -141,7 +137,6 @@
     ## [8] "0.467872001418224"
 
 ## Problem 5.
---
 
 ![](images/p5_1.png) ![](images/p5_2.png)
 
