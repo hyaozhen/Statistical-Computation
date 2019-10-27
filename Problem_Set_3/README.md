@@ -16,14 +16,14 @@ Problems 1 Binary-Social-Network-Classification:
 -   Performed Local Search and Simulated Annealing using various initial
     partitions π to iterate towards the partition maximizing rXY
 
-a.: Use the observed network matrix and perform Local Search using
+a.): Use the observed network matrix and perform Local Search using
 various initial partitions π to iterate towards the partition maximizing
 rXY.
 
-b.: Using the same matrix, apply simulated annealing to iterate towards
+b.): Using the same matrix, apply simulated annealing to iterate towards
 the partition maximizing rXY.
 
-c.: Use the observed network matrix and perform Local Search using
+c.): Use the observed network matrix and perform Local Search using
 various initial partitions π to iterate towards the partition maximizing
 rXY.
 
