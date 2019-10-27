@@ -1,3 +1,6 @@
+## Topics
+Variance Reduction, Control variate approach, Antithetic variate approach, Monte Carlo simulation, Empirical estimate of the percent reduction in variance, Importance Sampling, Accept-reject algorithm, Majorize, Inverse CDF method
+
 ## 1. Problems 5.6 (Textbook: Statistical computing with R / Maria L. Rizzo.):
 
 ![](images/p1_1.png)
