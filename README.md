@@ -18,3 +18,9 @@ This repository contains my solutions to some of the problems in the Statistical
 > [Problem_Set_4](https://github.com/hyaozhen/Statistical-Computation/tree/master/Problem_Set_4)
 
 **Topics**: Variance Reduction, Control variate approach, Antithetic variate approach, Monte Carlo simulation, Empirical estimate of the percent reduction in variance, Importance Sampling, Accept-reject algorithm, Majorize, Inverse CDF method
+
+## Problem Set 5
+
+> [Problem_Set_5](https://github.com/hyaozhen/Statistical-Computation/tree/master/Problem_Set_5)
+
+**Topics**: EM update algorithm to fit a k-Component Normal Mixture Model, Bayesian approach to fitting Normal Mixture Model, Posterior Sampling, Metropolis Sampling within Gibbs step, Metropolis-Hastings Sampling within Gibbs step, BIC
