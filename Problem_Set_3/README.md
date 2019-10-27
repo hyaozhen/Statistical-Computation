@@ -1,7 +1,8 @@
-# Topics
+Topics:
+-------
 Binary-Social-Network-Classification, Local Search and Simulated Annealing, Lognormal density, Simpson’s Rule, Laplace approximation, Monte Carlo, Box-Muller method
 
-# Problems 1 Binary-Social-Network-Classification:
+Problems 1 Binary-Social-Network-Classification:
 ------------------------------------------------
 
 ### Using Local Search and Simulated Annealing
