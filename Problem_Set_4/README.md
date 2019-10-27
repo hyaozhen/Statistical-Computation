@@ -1,5 +1,4 @@
-1. Problems 5.6 (Textbook: Statistical computing with R / Maria L. Rizzo.):
----------------------------------------------------------------------------
+## 1. Problems 5.6 (Textbook: Statistical computing with R / Maria L. Rizzo.):
 
 ![](images/p1_1.png)
 
@@ -25,8 +24,7 @@
     ## [1] "The percent reduction in variance: "
     ## [2] "98.38%"
 
-2. Problems 5.7 (Textbook: Statistical computing with R / Maria L. Rizzo.):
----------------------------------------------------------------------------
+## 2. Problems 5.7 (Textbook: Statistical computing with R / Maria L. Rizzo.):
 
 ![](images/p2.png)
 
@@ -66,8 +64,7 @@
 -   Theoretical value from Exercise 5.6: 98.38%
 -   Empirical estimate using the antithetic variate: 99.15%
 
-3. Problems 5.13 (Textbook: Statistical computing with R / Maria L. Rizzo.):
-----------------------------------------------------------------------------
+## 3. Problems 5.13 (Textbook: Statistical computing with R / Maria L. Rizzo.):
 
 ![](images/p3.png)
 
@@ -106,8 +103,7 @@
     Distribution) are closer to g(x), they should produce the smaller
     variance in estimation.
 
-4. Problems 5.14 (Textbook: Statistical computing with R / Maria L. Rizzo.):
-----------------------------------------------------------------------------
+## 4. Problems 5.14 (Textbook: Statistical computing with R / Maria L. Rizzo.):
 
 ![](images/p4.png)
 
@@ -142,8 +138,7 @@
     ## [7] "Estimation by Importance Function 3 (Gamma Distribution): " 
     ## [8] "0.47833302530692"
 
-5.
---
+## Probelm 5.
 
 ![](images/p5_1.png) ![](images/p5_2.png)
 
