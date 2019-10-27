@@ -18,7 +18,7 @@
     av.var <- var(rowMeans(exp(U.av)))
     1-(av.var/mc.var)
 
-    ## [1] 0.9838649
+    ## [1] 0.9838981
 
     print(c("The percent reduction in variance: ","98.38%"))
 
@@ -51,15 +51,15 @@
             "theta by the simple Monte Carlo method: ",mean(MCest)))
 
     ## [1] "theta by the antithetic variate approach: "
-    ## [2] "1.71832694206267"                          
+    ## [2] "1.7182762316213"                           
     ## [3] "theta by the simple Monte Carlo method: "  
-    ## [4] "1.71840847449031"
+    ## [4] "1.71950111482807"
 
 ### b). Compute an empirical estimate of the percent reduction in variance using the antithetic variate. Compare the result with the theoretical value from Exercise 5.6.
 
     (var(MCest) - var(Aest)) / var(MCest)
 
-    ## [1] 0.9845016
+    ## [1] 0.9900835
 
 #### For the percent reduction in variance using:
 
@@ -136,11 +136,11 @@
     ## [1] "Theoretical estimation: "                                   
     ## [2] "0.400625978474506"                                          
     ## [3] "Estimation by Importance Function 1 (Rice Distribution): "  
-    ## [4] "0.498360699926484"                                          
+    ## [4] "0.500252510987078"                                          
     ## [5] "Estimation by Importance Function 2 (Normal Distribution): "
-    ## [6] "0.579002520649648"                                          
+    ## [6] "0.584001470805931"                                          
     ## [7] "Estimation by Importance Function 3 (Gamma Distribution): " 
-    ## [8] "0.473355686355168"
+    ## [8] "0.47833302530692"
 
 5.
 --
@@ -292,7 +292,7 @@
     print(run_time)
 
     ##    user  system elapsed 
-    ##   0.320   0.153   0.474
+    ##   0.313   0.148   0.460
 
 ### d). Show graphically that your samples indeed follow the beta density with shape and scale parameters 3 and 5.
 
