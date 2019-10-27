@@ -1,5 +1,7 @@
-1.
---
+## Topics
+EM update algorithm to fit a k-Component Normal Mixture Model, Bayesian approach to fitting Normal Mixture Model, Posterior Sampling, Metropolis Sampling within Gibbs step, Metropolis-Hastings Sampling within Gibbs step, BIC
+
+## Problem 1.
 
 ![](images/p1.png)
 
@@ -111,8 +113,7 @@
 
 ![](Problem_Set_4_files/figure-markdown_strict/unnamed-chunk-2-1.png)
 
-2.
---
+## Problem 2.
 
 ### a).
 
@@ -291,8 +292,7 @@
 
 ![](Problem_Set_4_files/figure-markdown_strict/unnamed-chunk-4-3.png)
 
-3.
---
+## Problem 3.
 
 ![](images/p3_1.png) ![](images/p3_2.png)
 
